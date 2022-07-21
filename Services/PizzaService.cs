@@ -29,7 +29,7 @@ namespace ContosoPizza.Services
         pizza.Id = nextId++;
         Pizzas.Add(pizza);
     }
-
+    //Delete Method
     public static void Delete(int id)
     {
         var pizza = Get(id);
